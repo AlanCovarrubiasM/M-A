@@ -1,0 +1,10 @@
+.itemName{
+    display: block;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+
+.itemName:hover{
+    background-color: #151515;
+}

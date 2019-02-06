@@ -1,0 +1,107 @@
+.visionMenu{
+    width: 25%;
+}
+
+
+.no-visionMenu{
+    width: -25%;
+}
+
+
+.centerAll,
+.centerX,
+.centerY{
+    position: relative;
+}
+
+.centerX{
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.centerY{
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.centerAll{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#header{
+    position: absolute;
+    background-color: #212121;
+    height: 100%;
+    width: 100px;
+
+}
+
+/*Icon Menu*/
+#header #canvasIconMenu{
+    position: relative;
+    width: 90%;
+    height: 60px;
+    top: 20px;
+}
+
+#header #canvasIconMenu #iconMenu{
+    width: 50%;
+    height: 60%;
+    cursor: pointer;
+}
+
+#header #canvasIconMenu #iconMenu .line{
+    background-color: #A9A9A9;
+    margin-bottom: 5px;
+    height: 8px;
+    width: 100%;
+    border-radius: 20px;
+    float: right;
+}
+
+#header #canvasIconMenu #iconMenu .lineTwo{
+    width: 75% !important;
+}
+#header #canvasIconMenu #iconMenu .lineThree{
+    width: 50% !important;
+}
+
+/*Name to header*/
+#nameLarge{
+    position: relative;
+    width: 400px;
+    top: 25%;
+}
+
+.name{
+    color: #A9A9A9;
+    font-size: 60px;
+    font-family: Big Caslon;
+    transform: rotate(-90deg);
+    cursor: default;
+}
+
+#socialNetwork{
+    position: absolute;
+    bottom: 0px;
+    width: 50%;
+    height: 200px;
+}
+
+#socialNetwork a picture{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    display: block;
+    margin-bottom: 15px
+}
+
+#socialNetwork a picture img{
+    position: relative;
+    height: 40px;
+    width: 40px;
+}
+
+

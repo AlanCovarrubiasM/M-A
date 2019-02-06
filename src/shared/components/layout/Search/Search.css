@@ -1,0 +1,57 @@
+#canvasSearch{
+    position: relative;
+    height: 70px;
+    width: 300px;
+    margin: 30px;
+    padding-right: 15px
+}
+
+#canvasSearch #search #lineSearch{
+    position: relative;
+    height: 20px;
+    width: 3px;
+    background-color: #A9A9A9;
+    border-radius: 3px;
+    -webkit-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+    top: 23px;
+    left: 269px;
+    z-index: 1;
+    transition: all 1s ease-in-out;
+}
+
+#canvasSearch #search{
+    position: relative;
+    float: right;
+    width: 90%;
+}
+
+#canvasSearch #search input{
+    position: relative;
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+    border: #A9A9A9 solid 3px;
+    cursor: pointer;
+    float: right;
+    background-color: transparent;
+    font-size: 0px;
+    color: white;
+    transition: all 1s ease-in-out;
+    z-index: 2;
+    background-color: #000;
+}
+
+#canvasSearch #search input:hover{
+    position: relative;
+    width: 90%;
+    border-radius: 50px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#canvasSearch #search input:hover+#lineSearch{
+    left: 257px;
+    top: 13px;
+}
+

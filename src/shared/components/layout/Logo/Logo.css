@@ -1,0 +1,19 @@
+#logo{
+    position: absolute;
+}
+
+#logo picture{
+    display: block;
+}
+
+#logo picture img{
+    width: 350px;
+}
+
+#logo p{
+    text-align: center;
+    color: #A9A9A9;
+    font-size: 60px;
+    font-family: Big Caslon;
+    cursor: default; 
+}

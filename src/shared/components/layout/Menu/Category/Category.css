@@ -1,0 +1,24 @@
+.category{
+    position: relative;
+}
+.visible{
+    position: relative;
+    display: block;
+}
+
+.no-visible{
+    position: relative;
+    display: none;
+}
+
+.categoryName{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.categoryName:hover{
+    background: #151515;
+}
