@@ -1,11 +1,13 @@
 #canvasSearch{
-    position: relative;
+    position: absolute;
+    right: 0;
     height: 70px;
     width: 300px;
     margin: 30px;
     padding-right: 15px
 }
 
+/*  animacion */
 #canvasSearch #search #lineSearch{
     position: relative;
     height: 20px;

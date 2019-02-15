@@ -7,22 +7,22 @@ class Header extends Component{
     constructor(props){
         super(props);
         this.state = {
-            visibleMenu:false
+            activeMenu: false
         }
+    }   
+    openMenu = (event) => {
+        console.log('click');
+        this.state.activeMenu = 'true';
+        console.log(this.state.activeMenu);
     }
+//    <Menu className={this.state.visibleMenu?'visionMenu':'no-visionMenu'}/>
 
-    openMenu(event){
-        event.preventDefault();
-        this.setState({
-            visibleMenu:true
-        })
-    }
     render(){
         return(
             <div id="header">
-                <Menu className={this.state.visibleMenu?'visionMenu':'no-visionMenu'}/>
-                <div id="canvasIconMenu" className="centerX">
-                    <div id="iconMenu" className="centerAll" onClick={this.openMenu}>
+                <Menu active={this.state.activeMenu}/>
+                <div id="canvasIconMenu" className="centerX" onClick={this.openMenu}>
+                    <div id="iconMenu" className="centerAll">
                         <div className="line"></div>
                         <div className="line lineTwo"></div>
                         <div className="line lineThree"></div>
